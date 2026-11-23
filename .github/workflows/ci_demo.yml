@@ -1,0 +1,8 @@
+name: CI DEMO
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Demo pipline
+        run: echo "This is demo pipline"
