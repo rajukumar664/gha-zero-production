@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: Demo pipline
         run: echo "This is demo pipline"
-      - name: Check user details
+     - name: Check user details
         run: echo "GitHub User: ${{ github.actor }}"
