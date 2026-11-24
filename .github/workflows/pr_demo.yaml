@@ -1,0 +1,11 @@
+name: PR Demo
+on: 
+  pull_request: 
+    branches: [main, "feature/**"]
+jobs:
+  pr_demo_pipline:
+    runs-on: windows-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v5
+  
