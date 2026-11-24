@@ -10,4 +10,4 @@ jobs:
         run: echo "This is demo pipeline"
 
       - name: Check user details
-        run: echo "GitHub User: ${{ github.actor }}"
+        run: 'echo "GitHub User: ${{ github.actor }}"'
