@@ -1,6 +1,8 @@
 #Expression
 name: expression demo
 on: push
+env:
+  APP_NAME: demo-app
 jobs:
   demo:
     runs-on: ubuntu-latest
